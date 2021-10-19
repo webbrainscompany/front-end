@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "Gotham";
+  src: local("Gotham Pro"), local("GothamPro"), url("fonts/GothamPro.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: local("Gilroy"), local("Gilroy"), url("fonts/Gilroy.ttf") format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "GilroyLight";
+  src: url("Gilroy-Light.eot");
+  src: local("Gilroy Light"), local("Gilroy-Light"), url("fonts/Gilroy-Light.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+a {
+  text-decoration: none !important;
+}
+
+header {
+  font-family: "Gotham";
+  padding-top: 30px;
+  background: url(../img/header.png) 100% 100% no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+header a, header p, header span {
+  color: #fff !important;
+}
+
+.btn-link-group a {
+  color: #fff !important;
+  text-align: center;
+  font-size: 18px;
+  background: #0A3331;
+  padding: 21px 74px 21px 74px;
+}
+
+.btn-link-group-order a {
+  color: #fff !important;
+  text-align: center;
+  font-size: 18px;
+  background: #0A3331;
+  padding: 16px 39px 16px 39px;
+}
+
+.header-main_social {
+  font-size: 50px;
+  text-align: center;
+  padding-top: 260px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header-main_social .header-main_social-about {
+  font-family: "GilroyLight";
+  width: 530px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.block-about-slide-text {
+  padding: 135px;
+}
+.block-about-slide-text .block-about-slide-text-title {
+  font-family: "Gotham";
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 46px;
+}
+.block-about-slide-text .btn-link-group {
+  margin-top: 60px;
+}
+.block-about-slide-text hr {
+  background: -webkit-gradient(linear, left top, right top, color-stop(29.28%, #0B3432), color-stop(70.11%, #0B3432), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(90deg, #0B3432 29.28%, #0B3432 70.11%, rgba(255, 255, 255, 0) 100%);
+  height: 2px;
+  width: 330px;
+}
+
+.rooms {
+  background: #0A3331;
+  padding: 160px;
+}
+.rooms .col {
+  background: #fff;
+  padding: 0;
+}
+.rooms .col h5 {
+  padding-left: 20px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
