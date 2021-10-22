@@ -16,6 +16,14 @@
   font-weight: 100;
   font-style: normal;
 }
+.bg-white {
+  background: #fff;
+}
+
+body {
+  background: #0A3331;
+}
+
 a {
   text-decoration: none !important;
 }
@@ -155,7 +163,7 @@ header a, header p, header span {
   padding: 150px;
 }
 .menu-dish .col {
-  margin-left: 100px;
+  margin-left: 50px;
   background: #fff;
   padding: 0;
 }
@@ -170,6 +178,12 @@ header a, header p, header span {
 .menu-dish li a {
   color: #fff;
   font-size: 25px;
+}
+.menu-dish li a:hover {
+  color: #d6b170;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  border-bottom: 2px solid #d6b170;
 }
 .menu-dish li .full-screen {
   border-bottom: 1px solid #fff;
@@ -273,11 +287,13 @@ footer {
 }
 
 .map {
+  margin-bottom: 220px;
   background: url(../img/map.png) 100% 100% no-repeat;
   background-size: cover;
   height: 50vh;
 }
 .map form {
+  margin-right: 50px;
   color: white !important;
   padding: 50px 30px;
   margin-top: 291px;

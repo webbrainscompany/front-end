@@ -21,6 +21,12 @@
     font-style: normal;
 }
 
+.bg-white {
+    background: #fff;
+}
+body {
+    background: #0A3331;
+}
 
 a {
     text-decoration: none !important;
@@ -144,7 +150,7 @@ header {
 }
 .menu-dish {
     .col {
-        margin-left: 100px;
+        margin-left: 50px;
         background: #fff;
         padding: 0;
     }
@@ -155,9 +161,15 @@ header {
             color: #d6b170;
             border-bottom: 2px solid #d6b170;
         }
+
         a {
             color: #fff;
             font-size: 25px;
+            &:hover {
+                color: #d6b170;
+                transition: 0.1s;
+                border-bottom: 2px solid #d6b170;
+            }
         }
         .full-screen {
             border-bottom: 1px solid #fff;
@@ -261,7 +273,9 @@ footer {
     padding: 130px 210px;
 }
 .map {
+    margin-bottom: 220px;
     form {
+        margin-right: 50px;
         color: white !important;
         padding: 50px 30px;
         margin-top: 291px;

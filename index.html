@@ -23,8 +23,18 @@
                     <li><a href="#" class="nav-link">Партнёрство</a></li>
                 </ul>
             </div>
-            <div class="social">
-                <a href="" class="nav-link">+38 (067) 885 25 64</a>
+            <div class="social d-flex">
+                <a href="tel: +380678852564" class="nav-link">+38 (067) 885 25 64</a>
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="img/language.png" alt="" class="rounded-circle">
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Действие</a></li>
+                        <li><a class="dropdown-item" href="#">Другое действие</a></li>
+                        <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
         <div class="header-main_social">
@@ -43,10 +53,10 @@
 </header>
 <main>
 
-    <div class="block-about d-flex align-items-center flex-column">
+    <div class="block-about d-flex align-items-center flex-column bg-white">
         <div class="block-about-slide d-flex">
-            <img src="img/fist-block.jpg" alt="">
-            <div class="block-about-slide-text">
+            <img src="img/fist-block.jpg" alt="" class="w-50">
+            <div class="block-about-slide-text w-50">
                 <p class="block-about-slide-text-title text-uppercase">Порадуйтесь размеренному отдыху, попробуйте авторские блюда и коктейли</p>
                 <hr>
                 <p>
@@ -59,7 +69,7 @@
             </div>
         </div>
         <div class="block-about-slide d-flex">
-            <div class="block-about-slide-text">
+            <div class="block-about-slide-text w-50">
                 <p class="block-about-slide-text-title text-uppercase">Насладитесь едой и напитками высокой кухни</p>
                 <hr>
                 <p>
@@ -70,10 +80,10 @@
                     <a href="" class="">Просмотр</a>
                 </div>
             </div>
-            <img src="img/second-block.jpg" alt="">
+            <img src="img/second-block.jpg" alt="" class="w-50">
         </div>
         <div class="block-about-slide d-flex">
-            <img src="img/third-block.jpg" alt="">
+            <img src="img/third-block.jpg" alt="" class="w-50">
             <div class="block-about-slide-text">
                 <p class="block-about-slide-text-title text-uppercase">ОТдохните в окружении природы</p>
                 <hr>
@@ -81,7 +91,7 @@
                     Главная ценность заведения - это уникальное сочетание средиземноморской кухни с панорамным видом на море, интерьера в стиле зелёного сада и Synergy service.
                     Неотъемлемой частью концепции является ресторан высокой кухни с панорамным видом, который вмещает до 150 персон, что позволяет создать мероприятие любого масштаба.
                 </p>
-                <div class="btn-link-group">
+                <div class="btn-link-group w-50">
                     <a href="" class="">Просмотр</a>
                 </div>
             </div>
@@ -231,6 +241,29 @@
                     </div>
 
                 </div>
+                <div class="col">
+                    <img src="img/dish.png" alt="">
+                    <div class="m-2 container">
+                        <h1>Цезарь</h1>
+                        <span class="fst-italic">
+                            250г
+                        </span>
+                        <div class="count d-flex justify-content-between">
+                            <p>96₴</p>
+                            <form action="">
+                                <div class="number">
+                                    <button class="number-minus" type="button" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+                                    <input type="number" min="0" value="1" readonly>
+                                    <button class="number-plus" type="button" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="btn btn-link-group-order-dish">
+                            <a href="" class="">Заказать</a>
+                        </div>
+                    </div>
+
+                </div>
 
 
             </div>
@@ -265,10 +298,10 @@
     </div>
 
 
-    <div class="block-about d-flex align-items-center flex-column">
+    <div class="block-about d-flex align-items-center flex-column bg-white">
         <div class="block-about-slide d-flex">
-            <img src="img/fist-block.jpg" alt="">
-            <div class="block-about-slide-text">
+            <img src="img/fist-block.jpg" alt="" class="w-50">
+            <div class="block-about-slide-text w-50">
                 <p class="block-about-slide-text-title text-uppercase">Порадуйтесь размеренному отдыху, попробуйте авторские блюда и коктейли</p>
                 <hr>
                 <p>
@@ -281,7 +314,7 @@
             </div>
         </div>
         <div class="block-about-slide d-flex">
-            <div class="block-about-slide-text">
+            <div class="block-about-slide-text w-50">
                 <p class="block-about-slide-text-title text-uppercase">Насладитесь едой и напитками высокой кухни</p>
                 <hr>
                 <p>
@@ -292,10 +325,10 @@
                     <a href="" class="">Просмотр</a>
                 </div>
             </div>
-            <img src="img/second-block.jpg" alt="">
+            <img src="img/second-block.jpg" alt="" class="w-50">
         </div>
         <div class="block-about-slide d-flex">
-            <img src="img/third-block.jpg" alt="">
+            <img src="img/third-block.jpg" alt="" class="w-50">
             <div class="block-about-slide-text">
                 <p class="block-about-slide-text-title text-uppercase">ОТдохните в окружении природы</p>
                 <hr>
@@ -303,7 +336,7 @@
                     Главная ценность заведения - это уникальное сочетание средиземноморской кухни с панорамным видом на море, интерьера в стиле зелёного сада и Synergy service.
                     Неотъемлемой частью концепции является ресторан высокой кухни с панорамным видом, который вмещает до 150 персон, что позволяет создать мероприятие любого масштаба.
                 </p>
-                <div class="btn-link-group">
+                <div class="btn-link-group w-50">
                     <a href="" class="">Просмотр</a>
                 </div>
             </div>
@@ -338,9 +371,6 @@
 
 <!-- Initialize Swiper -->
 <script>
-    document.getElementById("body").addEventListener("scroll", () => {
-        console.log('scroll');
-    });
 
     var swiper = new Swiper(".mySwiper", {
         pagination: {
