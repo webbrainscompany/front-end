@@ -59,6 +59,13 @@ header {
     background: #0A3331;
     padding: 16px 39px 16px 39px;
 }
+.btn-link-group-order-table a{
+    color: #fff!important;
+    text-align: center;
+    font-size: 18px;
+    background: #0A3331;
+    padding: 14px 58px;
+}
 .social {
     padding-left: -500px;
 }
@@ -192,11 +199,14 @@ header {
         font-size: 18px;
         background: #0A3331;
         margin-top: 15px;
-
-        padding: 12px 120%;
+        margin-left: -15px;
+        padding: 12px 199%;
     }
     .count {
-        margin-top: 50px;
+        p {
+            font-size: 23px;
+        }
+        margin-top: 20px;
     }
 }
 
@@ -291,7 +301,7 @@ footer {
         color: white !important;
         padding: 50px 30px;
         margin-top: 280px;
-        margin-bottom: -101px;
+        margin-bottom: -170px;
         border: 5px solid #d6b170;
         background: #0A3331;
         i {
@@ -319,6 +329,9 @@ footer {
     background-size: cover;
     height: 700px;
     .btn-link-group-footer {
+        padding: 14px 58px;
+        margin-top: 30px;
+        font-weight: bold;
         background: #d6b170;
         border-radius: 0!important;
     }

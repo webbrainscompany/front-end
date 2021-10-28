@@ -59,6 +59,14 @@ header a, header p, header span {
   padding: 16px 39px 16px 39px;
 }
 
+.btn-link-group-order-table a {
+  color: #fff !important;
+  text-align: center;
+  font-size: 18px;
+  background: #0A3331;
+  padding: 14px 58px;
+}
+
 .social {
   padding-left: -500px;
 }
@@ -204,10 +212,14 @@ header a, header p, header span {
   font-size: 18px;
   background: #0A3331;
   margin-top: 15px;
-  padding: 12px 120%;
+  margin-left: -15px;
+  padding: 12px 199%;
 }
 .menu-dish .count {
-  margin-top: 50px;
+  margin-top: 20px;
+}
+.menu-dish .count p {
+  font-size: 23px;
 }
 
 .number {
@@ -310,7 +322,7 @@ footer {
   color: white !important;
   padding: 50px 30px;
   margin-top: 280px;
-  margin-bottom: -101px;
+  margin-bottom: -170px;
   border: 5px solid #d6b170;
   background: #0A3331;
 }
@@ -332,6 +344,9 @@ footer {
   height: 131px;
 }
 .map .btn-link-group-footer {
+  padding: 14px 58px;
+  margin-top: 30px;
+  font-weight: bold;
   background: #d6b170;
   border-radius: 0 !important;
 }
