@@ -34,6 +34,23 @@ a {
 .text-orange {
     color: #d6b170;
 }
+.headhesive {
+    height: 100px;
+    margin: 0 auto!important;
+    background: #0A3331;
+    a {
+        color: #fff!important;
+    }
+
+    width: 100%;
+    transform: translateY(-100%);
+    position: fixed;
+    transition: 0.3s;
+}
+.headhesive--stick {
+    transform: translateY(0);
+}
+
 header {
     font-family: 'Gotham';
     padding-top: 30px;
@@ -52,6 +69,10 @@ header {
     padding: 21px 74px 21px 74px;
 
 }
+.btn-link-group  a:hover{
+    margin: -5px;
+    border: thick double #ffffff;
+}
 .btn-link-group-order a {
     color: #fff!important;
     text-align: center;
@@ -59,12 +80,20 @@ header {
     background: #0A3331;
     padding: 16px 39px 16px 39px;
 }
+.btn-link-group-order  a:hover{
+    margin: -5px;
+    border: thick double #ffffff;
+}
 .btn-link-group-order-table a{
     color: #fff!important;
     text-align: center;
     font-size: 18px;
     background: #0A3331;
     padding: 14px 58px;
+}
+.btn-link-group-order-table a:hover{
+    margin: -5px;
+    border: thick double #ffffff;
 }
 .social {
     padding-left: -500px;
@@ -201,6 +230,10 @@ header {
         margin-top: 15px;
         margin-left: -15px;
         padding: 12px 199%;
+        &:hover {
+            margin: -5px;
+            border: thick double #ffffff;
+        }
     }
     .count {
         p {
@@ -335,6 +368,4 @@ footer {
         background: #d6b170;
         border-radius: 0!important;
     }
-
-
 }

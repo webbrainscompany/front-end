@@ -32,6 +32,26 @@ a {
   color: #d6b170;
 }
 
+.headhesive {
+  height: 100px;
+  margin: 0 auto !important;
+  background: #0A3331;
+  width: 100%;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  position: fixed;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.headhesive a {
+  color: #fff !important;
+}
+
+.headhesive--stick {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
 header {
   font-family: "Gotham";
   padding-top: 30px;
@@ -51,6 +71,11 @@ header a, header p, header span {
   padding: 21px 74px 21px 74px;
 }
 
+.btn-link-group a:hover {
+  margin: -5px;
+  border: thick double #ffffff;
+}
+
 .btn-link-group-order a {
   color: #fff !important;
   text-align: center;
@@ -59,12 +84,22 @@ header a, header p, header span {
   padding: 16px 39px 16px 39px;
 }
 
+.btn-link-group-order a:hover {
+  margin: -5px;
+  border: thick double #ffffff;
+}
+
 .btn-link-group-order-table a {
   color: #fff !important;
   text-align: center;
   font-size: 18px;
   background: #0A3331;
   padding: 14px 58px;
+}
+
+.btn-link-group-order-table a:hover {
+  margin: -5px;
+  border: thick double #ffffff;
 }
 
 .social {
@@ -214,6 +249,10 @@ header a, header p, header span {
   margin-top: 15px;
   margin-left: -15px;
   padding: 12px 199%;
+}
+.menu-dish .btn-link-group-order-dish a:hover {
+  margin: -5px;
+  border: thick double #ffffff;
 }
 .menu-dish .count {
   margin-top: 20px;
