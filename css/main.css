@@ -33,9 +33,12 @@ a {
 }
 
 .headhesive {
-  height: 100px;
+  height: 80px;
   margin: 0 auto !important;
   background: #0A3331;
+  z-index: 999 !important;
+  -webkit-box-shadow: 0px 3px 30px 4px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 3px 30px 4px rgba(0, 0, 0, 0.2);
   width: 100%;
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
@@ -172,30 +175,6 @@ header a, header p, header span {
   height: 100%;
 }
 
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
 .swiper-pagination-bullet {
   width: 20px !important;
   height: 20px !important;
@@ -249,10 +228,6 @@ header a, header p, header span {
   margin-top: 15px;
   margin-left: -15px;
   padding: 12px 199%;
-}
-.menu-dish .btn-link-group-order-dish a:hover {
-  margin: -5px;
-  border: thick double #ffffff;
 }
 .menu-dish .count {
   margin-top: 20px;
